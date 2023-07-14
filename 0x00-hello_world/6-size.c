@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /*
  * The programme prints using printf to display the type sizes of the various types
  */

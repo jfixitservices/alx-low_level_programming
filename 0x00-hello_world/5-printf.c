@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /*
  *Using printf to print out a string and return o
  *
