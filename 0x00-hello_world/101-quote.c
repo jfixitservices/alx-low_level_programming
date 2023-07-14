@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 /*
- * Using fprintf to output a piece of string 
- *
- *
- */
+* Using fprintf to output a piece of string 
+*
+*
+*/
 int main(void)
 {
 	fprintf(stderr, "%s", "and that piece of art is useful\"");
