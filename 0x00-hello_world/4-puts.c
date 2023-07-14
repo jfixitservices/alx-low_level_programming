@@ -1,9 +1,11 @@
 #include <stdio.h>
-/*
-* Using put to print out a string  
-*
-* 
-*/
+
+/**
+ * main - Entry point
+ *
+ * Return: 0 (success)
+ */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");

@@ -1,8 +1,9 @@
 #include <stdio.h>
-/*
- *Using printf to print out a string and return o
+
+/**
+ * main - Entry point
  *
- *
+ * Return: 0 (success)
  */
 int main(void)
 {

@@ -1,6 +1,9 @@
 #include <stdio.h>
-/*
- * The programme prints using printf to display the type sizes of the various types
+
+/**
+ * main - Entry point
+ * Description: print size of primitive types
+ * Return: 0 (success)
  */
 int main(void)
 {
