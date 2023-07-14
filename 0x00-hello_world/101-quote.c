@@ -1,9 +1,10 @@
 #include <stdio.h>
-/*
-* Using fprintf to output a piece of string 
-*
-*
-*/
+
+/**
+ * main - Entry point
+ *
+ * Return: 0 (success)
+ */
 int main(void)
 {
 	fprintf(stderr, "%s", "and that piece of art is useful\"");
