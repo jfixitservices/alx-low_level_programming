@@ -1,15 +1,13 @@
-#include "dog.h"
 #include <stdlib.h>
+#include "dog.h"
+
 /**
- * free_dog - frees memory of structure dogs
- * @d: pointer of structure
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * free_dog - frees memory allocated for a struct dog
+ * @d: struct dog to free
  */
-void free_dog(dog_g *d)
+void free_dog(dog_t *d)
 {
-	if (d != 0)
+	if (d)
 	{
 		free(d->name);
 		free(d->owner);
