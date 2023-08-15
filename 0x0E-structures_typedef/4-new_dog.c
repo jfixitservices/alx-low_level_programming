@@ -9,7 +9,9 @@
  */
 int _strlen(char *s)
 {
-	int i = 0;
+	int i;
+
+	i = 0;
 
 	while (s[i] != '\0')
 	{
@@ -30,8 +32,9 @@ int _strlen(char *s)
  */
 char *_strcpy(char *dest, char *src)
 {
-	int len = 0;
-	int i;
+	int len, i;
+
+	len = 0;
 
 	while (src[len] != '\0')
 	{
@@ -48,7 +51,7 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * new_dog - creates a new dog
+ * n_dog - creates a new dog
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
@@ -86,3 +89,4 @@ dog_t *n_dog(char *name, float age, char *owner)
 
 	return (dog);
 }
+
