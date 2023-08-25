@@ -2,18 +2,18 @@
 #include "lists.h"
 
 /**
- * free_list - Frees a linked list
- * @head: list_t list to be freed
+ * free_list - Deallocates a linked list
+ * @head: Pointer to the list_t list to be deallocated
  */
 void free_list(list_t *head)
 {
-	list_t *temp;
+	list_t *current_node;
 
 	while (head)
 	{
-		temp = head->next;
-		_free(head->str);
-		_free(head);
-		head = temp;
+		current_node = head->next;
+		free(head->str);
+		free(head);
+		head = current_node;
 	}
 }
