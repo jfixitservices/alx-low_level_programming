@@ -2,10 +2,10 @@
 #include "lists.h"
 
 /**
- * print_linked_list - prints all elements of a linked list
- * @head: pointer to the head of the linked list
+ * print_list - This prints all the elements of a linked list
+ * @h: This is the pointer to the list_t list to print
  *
- * Return: the number of nodes printed
+ * Return: No. of nodes printed
  */
 size_t print_list(const list_t *h)
 {
