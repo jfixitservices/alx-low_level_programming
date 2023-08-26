@@ -22,7 +22,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (!new_node)
 		return (NULL);
 
-	new_node->str = _strdup(str);
+	new_node->str = strdup(str);
 	new_node->len = len;
 	new_node->next = NULL;
 
