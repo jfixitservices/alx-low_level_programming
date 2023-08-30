@@ -9,13 +9,13 @@
  * @n: integer
  * @next: points to the next node
  *
- * Description:This is a Singly linked list node structure
+ * Description: This is a Singly linked list node structure
  * for my ALX software engineering project.
  */
 typedef struct listint_s
 {
-    int n;
-    struct listint_s *next;
+	int n;
+	struct listint_s *next;
 } listint_t;
 
 /* Function prototypes */
@@ -36,3 +36,4 @@ void free_listint2(listint_t **head);
 listint_t *find_listint_loop(listint_t *head);
 
 #endif
+
